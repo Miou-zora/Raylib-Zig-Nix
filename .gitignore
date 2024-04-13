@@ -1,0 +1,5 @@
+# Zig
+/zig-out
+/zig-cache
+
+/direnv
