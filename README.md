@@ -9,27 +9,29 @@ This repository is meant to be used as a template for Zig projects that use Rayl
 
 ## :bookmark_tabs: <samp>Requirements</samp>
 
-- :cherry_blossom: [Nix](https://nixos.org/download.html)
+- :cherry_blossom: <samp>[Nix](https://nixos.org/download.html)</samp>
 
 > [!IMPORTANT]
 > You will need to enable `nix-command` and `flakes`experimental features
 > If you get an error about it, consider this command:
 > `mkdir -p ~/.config/nix && echo "experimental-features = nix-command flakes" | tee ~/.config/nix/nix.conf`
 
-## <samp>Usage</samp>
+## :zap: <samp>Usage</samp>
 
 ### :wrench: <samp>Setup</samp>
 
-<kbd>I.</kbd> Clone this repository
-
-<kbd>II.</kbd> Run `nix develop` to enter the development environment
+Clone this repository and run `nix develop` to enter the development environment
 ```shell
 git clone https://github.com/Miou-zora/Raylib-Zig-Nix.git
 cd Raylib-Zig-Nix
 nix develop
 ```
 
-<kbd>III.</kbd> Rename every `name_of_your_project` in the project by the name of your project.
+> [!WARNING]
+> Don't forget to remove the `.git` folder if you want to use this repository for a project.
+>
+> Rename every `name_of_your_project` in the project by the name of your project.
+
 
 ### :construction_worker: <samp>Building</samp>
 
@@ -38,7 +40,7 @@ zig build
 ```
 
 
-### :zap: <samp>Running</samp>
+### :rocket: <samp>Running</samp>
 
 
 ```shell
