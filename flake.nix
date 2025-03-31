@@ -8,7 +8,7 @@
     flake-utils.lib.eachSystem [ "x86_64-linux" ] (system:
       let
         # Refer to https://github.com/mitchellh/zig-overlay if you want to use a specific version of Zig
-        zigPackage = zig-overlay.packages.${system}."0.13.0";
+        zigPackage = zig-overlay.packages.${system}."0.14.0";
         pkgs = nixpkgs.legacyPackages.${system};
       in
       {
